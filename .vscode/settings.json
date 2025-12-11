@@ -1,0 +1,29 @@
+{
+  "editor.formatOnSave": true,
+  "[cpp]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[c]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "C_Cpp.clang_format_path": "/opt/homebrew/bin/clang-format",
+  "C_Cpp.clang_format_style": "file",
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "C_Cpp.formatting": "clangFormat",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.tabCompletion": "on",
+  "C_Cpp.autocomplete": "default",
+  "C_Cpp.suggestSnippets": true,
+  "files.associations": {
+    "*.json": "jsonc",
+    "iostream": "cpp"
+  }
+}
